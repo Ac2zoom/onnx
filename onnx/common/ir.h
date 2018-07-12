@@ -789,7 +789,7 @@ struct OpSetID {
     version = proto.version();
   }
 
-  OpSetID();
+  OpSetID() {};
 
   std::string toString() const {
     return "$" + domain + "$" + std::to_string(version);
